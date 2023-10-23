@@ -1,0 +1,661 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(42 45 58);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.rocky{
+    font-size: 50px;
+    list-style: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+} 
+.navbar li{
+    padding-left: 70px;
+    font-size: 20px;
+}
+.nav{
+    margin-top: 15px;
+    color:rgb(177, 174, 174);
+}
+.hire{
+    margin-left: 70px;
+}
+.hire-but{
+    padding: 20px 40px;
+    background-color:rgb(42 45 58);
+    color: white;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 60px;
+}
+.hire-but:hover{
+    background-color:white;
+    color: black;
+}
+.icon{
+    /* display: flex; */
+    float: right;
+    margin-right: 120px;
+    list-style: none;
+    margin-top: 50px;
+    color: white;
+}
+.icon li{
+    padding-right: 30px;
+}
+.icon li:hover{
+    background-color: white;
+    color: black;
+}
+.facebook{
+    /* margin-top: 70px; */
+    margin-right: 180px;
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 25px 20px 25px 30px;
+    font-size:20px;
+}
+.instagram{
+    margin-top: 60px;
+    margin-left: 130px;
+    margin-right: 70px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 28px 0px 28px 33px;
+    font-size: 23px;
+}
+.twitter{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 30px 0px 30px 35px;
+    font-size: 20px;
+}
+.thread{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 32px 0px 32px 35px;
+}
+.obama{
+    margin-left: 400px;
+    list-style: none;
+    margin-top: 20px;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+}
+.note{
+    padding:20px 850px 0px 70px;
+    margin-top: 90px;
+    list-style: none;
+}
+.hello{
+    font-size: 60px;
+    color: white;
+}
+.name{
+    font-size: 45px;
+    color:white;
+}
+.software{
+    color:rgb(199, 193, 193);
+    margin-top: 20px;
+}
+.bootstrap{
+    color: rgb(199, 193, 193);
+}
+.play{
+    margin-top: 90px;
+    margin-left: 70px;
+    list-style: none;
+    border: 1px solid rgb(87, 85, 85);
+    padding: 30px 60px 30px 60px;
+    background-color:rgb(42 45 58);
+    border-radius: 50px;
+    color: white;
+}
+.play:hover{
+    background-color: white;
+    color: black;
+}
+.resume{
+    margin-top: 70px;
+    margin-left: 70px;
+    list-style: none;
+    border: 1px solid rgb(87, 85, 85);
+    padding: 30px 60px 30px 60px;
+    background-color:rgb(42 45 58);
+    border-radius: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resume:hover{
+    background-color: white;
+    color: black;
+}
+.download{
+    margin-left: 10px;
+}
+.service{
+    padding-top: 80px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: rgb(174, 171, 171);
+}
+.service-2{
+    color:white;
+    margin-top: 20px;
+    margin-left:100px ;
+    font-size: 60px;
+}
+.box{
+    max-width: 350px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid rgb(37 39 52);
+    background-color:rgb(37 39 52);
+    padding: 20px;
+    margin-top: 70px;
+}
+.code-icon{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.develop{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.angle-right {
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.angle-right li{
+    margin-bottom: 30px;
+    color: grey;
+}
+.angle-right li:hover{
+    background-color: rgb(50, 51, 61);
+    padding: 10px 0px;
+}
+.coding{
+    margin-left: 25px;
+}
+.skills{
+    border: 1px solid white;
+    margin-top: 30px;
+    padding: 0px 500px 0px 0px;
+    height: 13px;
+}
+.half{
+    background-color:rgb(64 66 77);
+    padding: 0px 100px 0px 0px;
+}
+.project{
+    padding-top: 80px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: rgb(174, 171, 171);
+}
+.project-2{
+    color:white;
+    margin-top: 20px;
+    margin-left:100px ;
+    font-size: 60px;
+}
+.box-2{
+    width: 500px;
+    height: 370px;
+    margin: auto;
+    border: 1px solid rgb(37 39 52);
+    background:linear-gradient(rgb(0,0,0,0.8),rgba(0, 0, 0, 0.749)),url("online-shop-website-template.jpg");
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.box-3{
+    width: 500px;
+    height: 370px;
+    margin: auto;
+    border: 1px solid rgb(37 39 52);
+    background:linear-gradient(rgb(0,0,0,0.8),rgba(0, 0, 0, 0.749)),url("miracle.png");
+    background-size: cover;
+    /* padding: 20px; */
+    margin-top: 70px;
+}
+.box-23{
+    display: flex;
+}
+.online-image{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.miracle{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.multishop-note{
+    margin-left: 70px;
+    display: flex;
+}
+.multishop-note li{
+    list-style: none;
+}
+.multi{
+    color: white;
+    font-size: 40px;
+}
+.multi-men{
+    margin-top: 50px;
+}
+.men-fashion{
+    color: rgb(211, 204, 204);
+}
+.pic-2{
+    margin-left:220px;
+    color: white;
+}
+.facial{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.body-massage{
+    color: rgb(211, 204, 204);
+}
+.client{
+        padding-top: 80px;
+        margin-left: 100px;
+        font-size: 30px;
+        color: rgb(174, 171, 171);
+}
+.trusted{
+    color:white;
+    margin-top: 20px;
+    margin-left:100px ;
+    font-size: 60px;
+}
+.oic-box{
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    border: 1px solid rgb(37 39 52);
+    background-color: rgb(50, 51, 61);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.oic-box:hover{
+    background-color: rgb(37 39 52);
+}
+.oic-pic{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.oic-com{
+    margin-left: 60px;
+    color: rgb(128, 124, 124);
+}
+.oic-logo{
+    color: rgb(207, 198, 198);
+    margin-left: 80px;
+    font-size: 10px;
+}
+.oic-general{
+    display: flex;
+}
+.blog{
+    padding-top: 80px;
+    margin-left: 580px;
+    font-size: 30px;
+    color: rgb(174, 171, 171);
+}
+.tricks{
+    margin-left: 300px;
+    color: white;
+    font-size: 80px;
+}
+.business{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    border: 1px solid rgb(37 39 52);
+    background-color:rgb(50, 51, 61);
+    margin-top: 70px;
+    display: flex;
+}
+.business-pic{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.octomber{
+    color: white;
+}
+.officially{
+    color: white;
+    font-size: 30px;
+}
+.oct-bus{
+    display: block;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.oct-21{
+    color: rgb(147, 139, 139);
+}
+.but-read{
+    background-color:rgb(50, 51, 61);
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 20px 40px 20px 40px;
+    background-color:rgb(42 45 58);
+    border-radius: 50px;
+    border: 1px solid rgb(87, 85, 85);
+    color: white;
+} 
+.but-read:hover{
+    background-color: white;
+    color: black;
+}
+.latest{
+    padding-top: 80px;
+    margin-left: 500px;
+    font-size: 30px;
+    color: rgb(174, 171, 171);
+}
+.newspaper{
+    margin-left: 250px;
+    color: white;
+    font-size: 70px;
+}
+#gmail{
+    background-color:rgb(50, 51, 61);
+    margin-top: 50px;
+    margin-left: 180px;
+    padding: 20px 400px 20px 40px;
+    background-color:rgb(50, 51, 61);
+    border-radius: 50px;
+    border: 1px solid rgb(87, 85, 85);
+    color:rgb(130 132 143);
+}
+#subscribe{
+    background-color:rgb(50, 51, 61);
+    padding: 20px 40px 20px 40px;
+    background-color:rgb(50, 51, 61);
+    border-radius: 50px;
+    border: 1px solid rgb(87, 85, 85);
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#subscribe:hover{
+    border: 1px solid white;
+}
+.footer{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.contact{
+    margin-right: 90px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.mail{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.call-icon{
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 201, 201);
+}
+.call-icon:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.eve-icon{
+    padding: 25px 25px 25px 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 201, 201);
+}
+.eve-icon:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.icon-fac{
+    margin-right: 0px;
+    padding: 25px 30px 5px 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 201, 201);
+}
+.icon-fac:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.insta-icon{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding:25px 30px 5px 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 201, 201);
+}
+.insta-icon:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.twit-icon{
+    padding: 25px 30px 5px 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 201, 201);
+}
+.twit-icon:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.end{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.copy-right{
+    margin-right: 390px;
+    margin-top: 30px;
+}
+.rocky-end{
+    font-size: 50px;
+    margin-left: 0px;
+}
+.pro-bar{
+    margin-top: 70px;
+    /* margin-right: 600px; */
+}
+.pro-1{
+    /* margin-bottom: 100px; */
+    width: 550px;
+    height: 80px;
+    margin: auto;
+    border: 1px solid rgb(37 39 52);
+    background-color: rgb(50, 51, 61);
+    background-size: cover;
+    /* margin-left: 150px; */
+    margin-top: 50px;
+}
+.pro-note{
+    color: white;
+    font-size: 20px;
+}
+.obama-pic{
+    width:550px;
+}
+
+@media(max-width:1200px){
+    .navbar li{
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .note{
+        padding:20px 750px 0px 70px;
+    }
+}
+@media(max-width:1100px){
+    .note{
+        padding:20px 650px 0px 40px;
+    }
+    .obama{
+        margin-left: 300px;
+        top: 170px;
+    }
+    .play{
+        margin-left: 40px;
+    }
+    .resume{
+        margin-left: 40px;
+    }
+    .box-2{
+        width: 450px;
+        height: 370px;
+        margin-left: 100px;
+    }
+    .box-3{
+        width: 450px;
+        height: 370px;
+    }
+    .online-image{
+        margin-left: 50px;
+    }
+    .miracle{
+        margin-left: 50px;
+    }
+    .pic-2{
+        margin-left:130px;
+    }
+    .oic-box{
+        margin-left: 60px;
+        width: 270px;
+    }
+    .oic-pic{
+        margin-left: 35px;
+    }
+    .oic-com{
+        margin-left: 45px;
+    }
+    .oic-logo{
+        margin-left: 60px;
+    }
+    .blog{
+        margin-left: 500px;
+    }
+    .tricks{
+        margin-left: 220px;
+    }
+    .but-read{
+        margin-left: 40px;
+    }
+    .officially{
+        font-size: 25px;
+    }
+    .latest{
+        margin-left: 420px;
+    }
+    .newspaper{
+        margin-left: 180px;
+    }
+    #gmail{
+        margin-left: 130px;
+    }
+    .contact{
+        font-size: 25px;
+    }
+    .mail{
+        font-size: 25px;
+    }
+}
+@media(max-width:1000px){
+    .navbar li{
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .note{
+        padding:20px 600px 0px 30px;
+    }
+    .play{
+        padding: 25px 50px 25px 50px;
+        margin-top: 60px;
+    }
+    .resume{
+        padding: 25px 50px 25px 50px;
+    }
+    .obama{
+        margin-left: 260px;
+    }
+    .obama-pic{
+        width: 500px;  
+    }
+    .play{
+        margin-left: 30px;
+    }
+    .resume{
+        margin-left: 30px;
+    }
+    .software{
+        font-size: 13px;
+    }
+    .bootstrap{
+        font-size: 13px;
+    }
+    .hello{
+        font-size: 50px;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .icon{
+        margin-right: 80px;
+    }
+    .service-2{
+        font-size: 50px;
+    }
+    .box-2{
+        width: 400px;
+    }
+    .box-3{
+        width: 400px;
+    }
+    .online-image{
+        margin-left: 20px;
+    }
+    .miracle{
+        margin-left: 20px;
+    }
+}
+@media(max-width:)
